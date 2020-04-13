@@ -1,0 +1,112 @@
+
+body {
+  background: linear-gradient(to right, #ad5389, #3c1053)
+
+}
+.calc {
+  width: 330px;
+  height: 430px;
+  position: absolute;
+  
+
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  
+  /*display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around; */
+  
+
+   background-color: rgb(144, 146, 151); 
+  /* box-sizing: border-box; */
+  /* padding: 10px;  */
+}
+
+.calc > .visor {
+ 
+  width: calc(100% - 6px);
+  height: 65px;
+
+  border: none;
+  box-sizing: border-box;
+  /* padding: 10px; 
+  margin: 3px;*/
+
+  font-size: 30px;
+
+  color: rgba(0, 0, 0, .4);
+  box-sizing: border-box;
+
+
+}
+
+.calc .button {
+
+  width: 65px;
+  height: 65px;
+  
+  border: none;
+  font-size: 25px;
+  background-color: rgb(94, 106, 128);
+  color: rgba(255, 255, 255, .8);
+
+    margin: 3px 3px 3px 3px;   
+   padding: 0;
+   position: relative;
+
+
+}
+
+.calc .button:hover {
+
+  background: linear-gradient(to right, #159957, #155799);
+
+}
+
+.calc .button.-igual {
+
+  height: calc(130px + 6px); 
+
+   /* position: absolute;  */
+  /* float: right; */
+  /* right: 7px; */
+ 
+  
+
+}
+
+.calc .button.-zero {
+
+  /*float: left;*/
+  width: calc(130px + 6px);
+  /*top: calc(-65px - 6px);
+  right: 15px;
+
+  position: relative;*/
+  
+
+
+  /* position: absolute;
+  width: calc(130px + 6px);
+  /* top: calc(-65px - 6px); */
+/*
+  bottom: 9px;
+  left: 0; */
+  
+  
+
+}
+
+.calc .button.-um {
+
+  
+}
+
+.calc .button.-ponto {
+
+  
+  /* position: absolute; */
+ /* bottom: 9px;
+  left: 0;*/
+}
